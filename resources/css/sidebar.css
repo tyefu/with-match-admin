@@ -1,0 +1,43 @@
+/* リセットCSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 全体のレイアウト */
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+/* サイドバー */
+.sidebar {
+  width: 100px; /* 固定幅 */
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  color: #666;
+}
+
+/* コンテンツ */
+.content {
+  flex: 1;
+  /* padding: 20px; */
+}
